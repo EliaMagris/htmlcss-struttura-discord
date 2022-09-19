@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: blue;
+    margin-bottom: 15px;
+}
+
 .container{
     display: flex;
     width: 80%;
@@ -11,16 +16,14 @@
     justify-content: space-between;
 }
 
-.container .nav-bar{
-    background-color: burlywood;
-}
-
 .small{
     flex-basis: 20%;
+    background-color: burlywood;
 }
 
 .big{
     flex-basis: 40%;
+    background-color: burlywood;
 }
 
  /* NAVBAR COMPLETATA */
@@ -78,3 +81,39 @@
  .button2{
     background-color: rgb(170, 29, 116);
  }
+
+ /* <!-- FINE MAIN + INIZIO FOOTER --> */
+
+ #social{
+    flex-basis: 32%;
+    background-color: red;
+ }
+
+ #product{
+    flex-basis: 17%;
+    background-color: cornflowerblue;
+ }
+
+ #company{
+    flex-basis: 17%;
+    background-color: red;
+ }
+
+ #resources{
+    flex-basis: 17%;
+    background-color: cornflowerblue;
+ }
+
+ #standards{
+    flex-basis: 17%;
+    background-color: red;
+ }
+
+ /* 2°PARTE DEL FOOTER */
+
+ footer{
+    margin-top: 20px;
+ }
+
+
+ 
