@@ -31,3 +31,30 @@
     background-color: cyan;
     margin-top: 20px;
  }
+
+ /* HEADER COMPLETATO */
+
+ .no-right{
+    background-color: gold;
+    margin: 20px 0;
+ }
+
+ .image{
+    flex-basis: 45%;
+    background-color: darkorchid;
+    padding: 10px;
+ }
+
+ .text{
+    flex-basis: 45%;
+    background-color: firebrick;
+    padding: 10px;
+ }
+
+ .reverse{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+ }
