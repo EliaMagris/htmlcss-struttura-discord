@@ -58,3 +58,23 @@
     justify-content: space-between;
     flex-direction: row-reverse;
  }
+
+ .column{
+    flex-direction: column;
+ }
+
+ .column div{
+    margin: 5px 0;
+ }
+
+ .little-title{
+    background-color: chocolate;
+ }
+
+ .image2{
+    background-color: rgb(15, 127, 161);
+ }
+
+ .button2{
+    background-color: rgb(170, 29, 116);
+ }
